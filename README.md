@@ -23,7 +23,8 @@ The application uses JSON files to combine spacecraft onboard events with latitu
     │       │               │   ├── Latitude.java
     │       │               │   ├── Longitude.java
     │       │               └── service/
-    │       │                   └── LocationService.java
+    │       │               |    └── LocationService.java
+    |       |               └── LocationServiceApplication.java (Starting Point)
     │       └── resources/
     │           ├── data/
     │           │   ├── events.json
