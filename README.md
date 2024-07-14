@@ -40,6 +40,7 @@ The application uses JSON files to combine spacecraft onboard events with latitu
 ## Setup and Running the Application
    - ```git clone https://github.com/wazir12/SpacecraftService.git```
    - ```cd location-service```
+   - import the project in IntelliJ and run ```LocationServiceApplication``` class
 ### Endpoints
 
 1. **Retrieve Latitude/Longitude for a Given Event ID**
@@ -51,6 +52,7 @@ The application uses JSON files to combine spacecraft onboard events with latitu
 
 ### Testing
 To run the unit tests, use the following Maven command:
+      ```mvn test```
 1. ```LocationServiceTests.java ```
 2. ``` LocationServiceControllerTests.java ```
 
