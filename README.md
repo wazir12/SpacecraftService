@@ -8,30 +8,39 @@ The application uses JSON files to combine spacecraft onboard events with latitu
 ## Project Structure
 
     project-root/
-    ├── src/
-    │   └── main/
-    │       ├── java/
-    │       │   └── org/
-    │       │       └── solenix/
-    │       │           └── location_service/
-    │       │               ├── controller/
-    │       │               │   └── LocationServiceController.java
-    │       │               ├── model/
-    │       │               │   ├── Event.java
-    │       │               │   ├── EventWithPosition.java
-    │       │               │   ├── GeoPosition.java
-    │       │               │   ├── Latitude.java
-    │       │               │   ├── Longitude.java
-    │       │               └── service/
-    │       │               |    └── LocationService.java
-    |       |               └── LocationServiceApplication.java (Starting Point)
-    │       └── resources/
-    │           ├── data/
-    │           │   ├── events.json
-    │           │   ├── latitudes.json
-    │           │   └── longitudes.json
-    │           └── application.properties
-    ├── pom.xml
+        ├── src/
+        │   └── main/
+        │       ├── java/
+        │       │   └── org/
+        │       │       └── solenix/
+        │       │           └── location_service/
+        │       │               ├── controller/
+        │       │               │   └── LocationServiceController.java
+        │       │               ├── model/
+        │       │               │   ├── Event.java
+        │       │               │   ├── EventWithPosition.java
+        │       │               │   ├── GeoPosition.java
+        │       │               │   ├── Latitude.java
+        │       │               │   ├── Longitude.java
+        │       │               └── service/
+        │       │               │   └── LocationService.java
+        │       │               └── LocationServiceApplication.java (Starting Point)
+        │       └── resources/
+        │           ├── data/
+        │           │   ├── events.json
+        │           │   ├── latitudes.json
+        │           │   └── longitudes.json
+        │           └── application.properties
+        ├── test/
+        │   └── java/
+        │       └── org/
+        │           └── solenix/
+        │               └── location_service/
+        │                   ├── service/
+        │                   │      ├──LocationServiceTests.java
+        │                   ├── controller/
+        │                          ├──LocationServiceControllerTests.java
+        ├── pom.xml
 
 ## Prerequisites
   - Java 11 or higher
