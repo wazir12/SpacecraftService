@@ -62,7 +62,7 @@ The application uses JSON files to combine spacecraft onboard events with latitu
 ### Testing
 To run the unit tests, use the following Maven command:
       ```mvn test```
-1. ```LocationServiceTests.java ```
+1. ``` LocationServiceTests.java ```
 2. ``` LocationServiceControllerTests.java ```
 
 
